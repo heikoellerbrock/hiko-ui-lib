@@ -11,7 +11,7 @@ export default meta;
 
 type Story = StoryObj<typeof Input>;
 
-const renderInput = (args) => (
+const renderInput = (args: any) => (
     <Input data-testId="InputField-id" {...args} />
 );
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Meta, StoryObj } from "@storybook/react";
+import {Meta, StoryObj} from "@storybook/react";
 import Button from "./Button";
 
 const meta: Meta<typeof Button> = {
@@ -11,7 +11,7 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-const renderButton = (args) => (
+const renderButton = (args: any) => (
     <Button data-testId="InputField-id" {...args} />
 );
 
