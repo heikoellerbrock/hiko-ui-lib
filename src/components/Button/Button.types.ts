@@ -1,5 +1,4 @@
 import { MouseEventHandler } from "react";
-
 export interface ButtonProps {
     text?: string | undefined;
     primary?: boolean | undefined;
